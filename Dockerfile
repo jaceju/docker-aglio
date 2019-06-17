@@ -6,7 +6,7 @@ WORKDIR /aglio
 
 RUN yarn global add aglio
 
-EXPOSE 4000
+EXPOSE 3000
 
 CMD ["/usr/local/bin/aglio", "--help"]
 
